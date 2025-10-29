@@ -16,19 +16,24 @@ export default function Home() {
         </div>
 
           {LIST.map(v => (
-            <div 
+            <div
               className="flex flex-col my-6"
               key={`${v.name}`}
             >
-              { v.url ? (
-                <Link href={v.url} className="text-2xl text-black underline" target="_blank">
-                  {v.name}
-                </Link>
-              ) : (
-                <span className="text-2xl text-black">
-                  {v.name}
-                </span>
-              ) }
+              <div className="flex items-center">
+                { v.url ? (
+                  <Link href={v.url} className="text-2xl text-black underline" target="_blank">
+                    {v.name}
+                  </Link>
+                ) : (
+                  <span className="text-2xl text-black">
+                    {v.name}
+                  </span>
+                ) }
+                {v.bootstrapped && (
+                  <span className="bg-black text-white px-2 py-1 rounded-2xl text-sm ml-2">Bootstrapped</span>
+                )}
+              </div>
               <span className="text-xl text-gray-800 font-medium mb-4">{v.revenue}</span>
               <span className="text-xl text-gray-800">{v.story}</span>
             </div>
