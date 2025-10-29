@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { LIST } from "./list";
 
-const COPY_HEADER = 'A curated list of examples of how companies got their first few customers';
+const COPY_HEADER = 'Modern examples of how companies got their first few customers';
 
 export default function Home() {
   return (
