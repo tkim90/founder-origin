@@ -24,7 +24,8 @@ export default function RootLayout({
       >
         {children}
         <footer className="fixed bottom-0 left-0 right-0 py-4 text-black text-center text-sm font-mono uppercase bg-[#EEEEE8] border-t border-zinc-300">
-          <div className="flex items-center justify-end px-16">
+          <div className="flex items-center justify-between px-24 text-xs text-zinc-700">
+            <span>Founder Origin</span>
             <a
               href="https://github.com/tkim90"
               target="_blank"
