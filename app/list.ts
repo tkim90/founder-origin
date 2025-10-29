@@ -22,13 +22,13 @@ export const LIST = [
   {
     "name": "Retell",
     "revenue": "$15M",
-    "story": "Retell AI, a voice-agent platform, landed early customers by building compelling case studies in high-volume use-cases — for example telemedicine provider Doxy.me made Retell the first contact point for free-users, and others like Sunshine Loans and AccioJob used Retell to handle thousands of calls with minimal human overhead. These case studies helped them land further customers quickly.",
+    "story": "Retell AI, a voice-agent platform, landed early customers by building compelling case studies in high-volume use-cases. For example, telemedicine provider Doxy.me made Retell the first contact point for free-users, and others like Sunshine Loans and AccioJob used Retell to handle thousands of calls with minimal human overhead. These case studies helped them land further customers quickly.",
     "url": "https://www.retellai.com/"
   },
   {
     "name": "Cursor",
     "revenue": "$100M+",
-    "story": "Cursor (by Anysphere) targeted developers first: the product shipped in Jan 2023, and early adopters included engineers at OpenAI and other elite tech companies. These developers found value, paid out-of-pocket, and championed the product internally. That grassroots adoption then translated to enterprise deals. :contentReference[oaicite:4]{index=4}",
+    "story": "Cursor (by Anysphere) targeted developers first: the product shipped in Jan 2023, and early adopters included engineers at OpenAI and other elite tech companies. These developers found value, paid out-of-pocket, and championed the product internally. That grassroots adoption then translated to enterprise deals.",
     "url": "https://www.cursor.com/"
   },
   {
@@ -39,7 +39,7 @@ export const LIST = [
   },
   {
     "name": "Happy Robot",
-    "revenue": "70+ customers; $44M Series B",
+    "revenue": "$44M Series B",
     "story": "Happy Robot’s first major customer surfaced somewhat serendipitously: while the founders demo’d at a logistics forum (Discord / conference demo) their first customer, an $800M freight broker called Circle Logistics, discovered the product and became an early design-partner. That real world production deployment in logistics operations helped them refine the product and then land further logistics enterprise customers (DHL, Ryder etc.).",
     "url": "https://www.happyrobot.ai/"
   }
