@@ -1,5 +1,7 @@
+import { MDXRemote } from 'next-mdx-remote/rsc';
 import Link from 'next/link';
 import { LIST } from "./list";
+import { mdxComponents } from "./mdx-components";
 
 const COPY_HEADER = 'Modern examples of how companies got their first few customers';
 
@@ -35,7 +37,9 @@ export default function Home() {
                 )}
               </div>
               <span className="text-xl text-gray-800 font-medium mb-4">{v.revenue}</span>
-              <span className="text-xl text-gray-800">{v.story}</span>
+              <div className="prose prose-lg prose-invert prose-headings:text-2xl prose-headings:text-black text-zinc-800">
+                <MDXRemote source={v.story} components={mdxComponents} />
+              </div>
             </div>
           ))}
       </main>
