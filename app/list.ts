@@ -13,9 +13,9 @@ export const LIST = [
     At Facebook, he tried to create a dataset of 50k labeled businesses to distinguish between different business types. They hired an outside firm, which took 6 months to deliver it, which on top of that was riddled with errors - restaurants mislabeled as coffeeshops, coffeeshops as hospitals.
 
     ### Factors 
-    - Timing: Edwin launched Surge around the time GPT-3 launched.
     - He already had a data savy audience from previous technical blog posts. When he posted about Surge, exactly the right readers were there.
     - Edwin was an expert on this problem. He had spent most of his career solving data problems at big tech companies.
+    - Timing: Edwin launched Surge around the time GPT-3 launched.
 
     `,
     sources: [
