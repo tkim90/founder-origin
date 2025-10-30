@@ -9,9 +9,9 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
 }
 
 export const mdxComponents = {
-  h1: (props: any) => <h1 className="text-2xl font-bold text-black mt-6 mb-4" {...props} />,
-  h2: (props: any) => <h2 className="text-xl font-bold text-black mt-5 mb-3" {...props} />,
-  h3: (props: any) => <h3 className="text-lg font-bold text-black mt-4 mb-2" {...props} />,
+  h1: (props: any) => <h1 className="text-3xl font-semibold text-black mt-6 mb-4" {...props} />,
+  h2: (props: any) => <h2 className="text-2xl text-black mt-5 mb-3" {...props} />,
+  h3: (props: any) => <h3 className="text-xl text-black mt-4 mb-2" {...props} />,
   p: (props: any) => <p className="mb-4 text-zinc-800" {...props} />,
   a: (props: any) => <a className="underline text-zinc-800" target="_blank" rel="noopener noreferrer" {...props} />,
   ul: (props: any) => <ul className="list-disc list-inside mb-4 text-zinc-800 space-y-1" {...props} />,
