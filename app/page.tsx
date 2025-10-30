@@ -36,7 +36,7 @@ export default function Home() {
                   <span className="bg-black text-white px-2 py-1 rounded-2xl text-sm ml-2">Bootstrapped</span>
                 )}
               </div>
-              <span className="text-xl text-gray-800 font-medium mb-4">{v.revenue}</span>
+              <span className="text-xl text-gray-800 font-medium">{v.revenue}</span>
               <div className="prose prose-lg prose-invert prose-headings:text-2xl prose-headings:text-black text-zinc-800">
                 <MDXRemote source={v.story} components={mdxComponents} />
               </div>

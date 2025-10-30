@@ -5,12 +5,26 @@ export const LIST = [
     name: "Surge",
     revenue: "$1,000,000,0000 ($1B)",
     story: dedent`
-      Founder Edwin Chen, a former Google and Meta engineer, leveraged his knowledge of pain points and his connections in the industry
-      to validate the product and secure initial customers among well-known names such as Airbnb and Twitch. Surge's earliest projects
-      focused on solving core problems for these companies: improving search, recommendation engines, and content moderation through
-      higher quality, expert-matched data labeling.
+    ### First customers
+    Edwin Chen's approach was very straightforward: built the v1 in a couple of weeks, posted on his data science blog, and became profitable in month one. Early customers include Twitter, Twitch, and Airbnb (in the search, recommendations, and content moderation space).
+    
+    At Twitter, he had this problem when trying to build a sentiment classifier from 10k labeled tweets - positive or negative. But their human data labeling system was just two people they hired off of Craigslist working 9 to 5. Starting required waiting a month.
+
+    At Facebook, he tried to create a dataset of 50k labeled businesses to distinguish between different business types. They hired an outside firm, which took 6 months to deliver it, which on top of that was riddled with errors - restaurants mislabeled as coffeeshops, coffeeshops as hospitals.
+
+    ### Factors 
+    - Timing: Edwin launched Surge around the time GPT-3 launched.
+    - He already had a data savy audience from previous technical blog posts. When he posted about Surge, exactly the right readers were there.
+    - Edwin was an expert on this problem. He had spent most of his career solving data problems at big tech companies.
+
     `,
-    url: "https://www.surgehq.ai/",
+    sources: [
+      { name: "YouTube - 20VC Interview", url: "https://youtu.be/ziqsNe1sLHw?si=KFZa5q1et5gyKGck&t=1056" },
+      { name: "Surge AI: A Modern Data Labeling Platform for NLP", url: "https://medium.com/@echen/surge-ai-a-modern-data-labeling-platform-for-nlp-d7045a1cb239" },
+      { name: "Forbes - How this Google alum became a low-key AI billionaire", url: "https://www.forbes.com.au/news/billionaires/how-this-google-alum-became-a-low-key-ai-billionaire/" },
+      { name: "Edwin Chen - 400 richest Americans list", url: "https://e.vnexpress.net/news/tech/personalities/meet-edwin-chen-mit-graduate-and-youngest-billionaire-on-forbes-400-richest-americans-list-4938703.html" },
+    ],
+    company_url: "https://www.surgehq.ai/",
     "bootstrapped": true,
   },
   {
@@ -22,7 +36,7 @@ export const LIST = [
       their own mid-sized problems, kept the product lightweight, and focused on self-serve. The first customers came from this
       word-of-mouth / community outreach kernel.
     `,
-    "url": "https://www.chatbase.co/",
+    "company_url": "https://www.chatbase.co/",
     "bootstrapped": true,
   },
   {
@@ -34,7 +48,7 @@ export const LIST = [
       attorneys in early 2023. That early big-law engagement served as proof-point and then unlocked momentum across the AmLaw 100
       and large law firms.
     `,
-    "url": "https://www.harvey.ai/"
+    "company_url": "https://www.harvey.ai/"
   },
   {
     "name": "Retell",
@@ -45,7 +59,7 @@ export const LIST = [
       AccioJob used Retell to handle thousands of calls with minimal human overhead. These case studies helped them land further
       customers quickly.
     `,
-    "url": "https://www.retellai.com/"
+    "company_url": "https://www.retellai.com/"
   },
   {
     "name": "Cursor",
@@ -55,7 +69,7 @@ export const LIST = [
       OpenAI and other elite tech companies. These developers found value, paid out-of-pocket, and championed the product internally.
       That grassroots adoption then translated to enterprise deals.
     `,
-    "url": "https://www.cursor.com/"
+    "company_url": "https://www.cursor.com/"
   },
   {
     "name": "ElevenLabs",
@@ -66,7 +80,7 @@ export const LIST = [
       them) and enabled early users via self-serve. From creators and small customers to content publishers and enterprises, this
       build-up triggered broader adoption.
     `,
-    "url": "https://www.elevenlabs.io/"
+    "company_url": "https://www.elevenlabs.io/"
   },
   {
     "name": "Happy Robot",
@@ -77,6 +91,6 @@ export const LIST = [
       early design-partner. That real world production deployment in logistics operations helped them refine the product and then
       land further logistics enterprise customers (DHL, Ryder etc.).
     `,
-    "url": "https://www.happyrobot.ai/"
+    "company_url": "https://www.happyrobot.ai/"
   }
 ]
