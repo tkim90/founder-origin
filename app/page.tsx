@@ -23,8 +23,8 @@ export default function Home() {
               key={`${v.name}`}
             >
               <div className="flex items-center">
-                { v.url ? (
-                  <Link href={v.url} className="text-2xl text-black underline" target="_blank">
+              { v.company_url ? (
+                  <Link href={v.company_url} className="text-2xl text-black underline" target="_blank">
                     {v.name}
                   </Link>
                 ) : (
@@ -40,6 +40,20 @@ export default function Home() {
               <div className="prose prose-lg prose-invert prose-headings:text-2xl prose-headings:text-black text-zinc-800">
                 <MDXRemote source={v.story} components={mdxComponents} />
               </div>
+              {v.sources && v.sources.length > 0 && (
+                <div className="mt-4">
+                  <span className="text-sm font-semibold text-zinc-700 mb-2 block">Sources:</span>
+                  <ul className="list-disc list-inside space-y-1 text-sm text-zinc-600">
+                    {v.sources.map((source, idx) => (
+                      <li key={idx}>
+                        <Link href={source.url} className="underline hover:text-zinc-800" target="_blank" rel="noopener noreferrer">
+                          {source.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           ))}
       </main>
