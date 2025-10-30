@@ -10,7 +10,7 @@ export default function Home() {
     <div className="flex min-h-screen items-center justify-center bg-[#EEEEE8] font-sans">
       <main className="flex min-h-screen w-full max-w-3xl flex-col py-32 px-16 bg-[#EEEEE8] sm:items-start">
 
-        <span className="text-3xl text-black">Founder Origins</span>
+        <span className="text-3xl text-black">Founder Origin</span>
         <div className="flex gap-6">
           <h1 className="text-2xl tracking-tight text-black">
             {COPY_HEADER}
