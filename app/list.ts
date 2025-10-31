@@ -95,36 +95,25 @@ export const LIST = [
     story: `
   
   ### First customers
-  Legora AI was founded in 2023 by Max Junestrand, who had no legal background but had the vision to transform legal work with AI.
+  Despite having no previous experience in legal, Max got his foot in the door by reaching out to to hundreds of law firm partners on LinkedIn DM. He offered to pay their hourly rate - most waived it and still showed up, appreciating the respect for their time.
   
-  One of Legora's earliest and most impactful customers was the prestigious Swedish law firm Mannheimer Swartling, which helped build credibility and trust in the legal community.
+  His earliest win was when he convinced a top Swedish law firm to let him co-work at their offices. In return he would build prototypes for them, with the ultimate goal of having their firm adopt an AI product. He would badger their lawyers with questions at lunch time, demoing the product and testing its usefulness. This tight feedback loop (getting direct feedback, in person, every day) was key to building a product that legal firms wanted.
   
-  Early customer acquisition strongly depended on partnerships with credible law firms, leveraging their reputation to win over other firms rapidly.
-  
-  Within a short time, Legora expanded its user base to more than 250 legal firms across 20 markets by May 2025, including major clients like Bird & Bird, Cleary Gottlieb, and Goodwin.
-  
-  The company also opened offices in New York and expanded globally, accelerating adoption by tens of thousands of legal professionals worldwide.
+  In a short amount of time, Legora expanded its user base to more than 250 legal firms across 20 markets by May 2025, including major clients like Bird & Bird, Cleary Gottlieb, and Goodwin.
   
   ### Factors
-  - Strong partnerships with prestigious law firms built trust and expanded reach in a traditionally skeptical industry.
-  - Coachable, transparent founder-led sales helped overcome initial credibility issues.
-  - Early strategic collaborations turned clients into product co-creators, ensuring solutions were optimized and embraced organization-wide.
-  - Rapid international expansion with local offices in key markets like New York, London, and Stockholm accelerated growth.
-  - Y Combinator backing and high-velocity product development boosted investor and customer confidence.
-  - Focus on collaborative AI that complements lawyers' work fostered strong product-market fit.
+  - Got his foot in the door by DMing partners on LinkedIn and respecting their time.
+  - Embedded himself at a law firm to create a tight feedback loop between product and customer.
+  - Gave value back to early customers by sharing product ideas and AI possibilities to get people excited.
   `,
     sources: [
       {
+        name: "YC - How This 25-Year-Old Built A $675M Legal AI Startup (With No Legal Experience)",
+        url: "https://www.youtube.com/watch?v=pHuXCzM2ntU",
+      },
+      {
         name: "Sifted - Inside legal AI startup Legora's race for dominance",
         url: "https://sifted.eu/articles/inside-legal-ai-startup-legoras-race-for-dominance-we-wake-up-with-the-taste-of-blood",
-      },
-      {
-        name: "Legora blog - Series C funding announcement",
-        url: "https://legora.com/blog/series-c",
-      },
-      {
-        name: "Legora blog - Series B funding announcement",
-        url: "https://legora.com/blog/series-b",
       },
       {
         name: "Jonathan Rintala blog - Growth journey of AI startup Legora",
