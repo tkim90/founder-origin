@@ -3,7 +3,7 @@ import dedent from "dedent";
 export const LIST = [
   {
     name: "Surge",
-    revenue: "$1,000,000,0000 ($1B)",
+    revenue: "$1,000,000,0000",
     story: dedent`
     ### First customers
     Edwin Chen's approach was very straightforward: built the v1 in a couple of weeks, posted on his data science blog, and became profitable in month one. Early customers include Twitter, Twitch, and Airbnb (in the search, recommendations, and content moderation space).
@@ -41,7 +41,7 @@ export const LIST = [
   },
   {
     name: "Chatbase",
-    revenue: "$5,000,000+ ARR (as of Feb 2025)",
+    revenue: "$5,000,000+",
     story: `
 
   ### First customers
@@ -91,7 +91,7 @@ export const LIST = [
   },
   {
     name: "Legora AI",
-    revenue: "$23M ARR",
+    revenue: "$23,000,000+",
     story: `
   
   ### First customers
@@ -142,58 +142,58 @@ export const LIST = [
     company_url: "https://legora.com/",
     bootstrapped: false,
   },
-  {
-    name: "Harvey",
-    revenue: "100M",
-    story: dedent`
-      Founded in 2022 by Winston Weinberg (a junior lawyer) and Gabe Pereyra (ex-DeepMind/Meta researcher), Harvey targeted the legal
-      industry. They got their first large customer when global law firm Allen & Overy decided to roll out their tool to ~3,500
-      attorneys in early 2023. That early big-law engagement served as proof-point and then unlocked momentum across the AmLaw 100
-      and large law firms.
-    `,
-    company_url: "https://www.harvey.ai/",
-  },
-  {
-    name: "Retell",
-    revenue: "$15M",
-    story: dedent`
-      Retell AI, a voice-agent platform, landed early customers by building compelling case studies in high-volume use-cases. For
-      example, telemedicine provider Doxy.me made Retell the first contact point for free-users, and others like Sunshine Loans and
-      AccioJob used Retell to handle thousands of calls with minimal human overhead. These case studies helped them land further
-      customers quickly.
-    `,
-    company_url: "https://www.retellai.com/",
-  },
-  {
-    name: "Cursor",
-    revenue: "$100M+",
-    story: dedent`
-      Cursor (by Anysphere) targeted developers first: the product shipped in Jan 2023, and early adopters included engineers at
-      OpenAI and other elite tech companies. These developers found value, paid out-of-pocket, and championed the product internally.
-      That grassroots adoption then translated to enterprise deals.
-    `,
-    company_url: "https://www.cursor.com/",
-  },
-  {
-    name: "ElevenLabs",
-    revenue: "~$200M",
-    story: dedent`
-      ElevenLabs started with deep tech in voice synthesis, then launched publicly with a free-tier platform that attracted many
-      creators and content-making customers. They leveraged their voice-actor marketplace (actors upload voices → developers pick
-      them) and enabled early users via self-serve. From creators and small customers to content publishers and enterprises, this
-      build-up triggered broader adoption.
-    `,
-    company_url: "https://www.elevenlabs.io/",
-  },
-  {
-    name: "Happy Robot",
-    revenue: "$44M Series B",
-    story: dedent`
-      Happy Robot’s first major customer surfaced somewhat serendipitously: while the founders demo’d at a logistics forum (Discord /
-      conference demo) their first customer, an $800M freight broker called Circle Logistics, discovered the product and became an
-      early design-partner. That real world production deployment in logistics operations helped them refine the product and then
-      land further logistics enterprise customers (DHL, Ryder etc.).
-    `,
-    company_url: "https://www.happyrobot.ai/",
-  },
+  // {
+  //   name: "Harvey",
+  //   revenue: "100M",
+  //   story: dedent`
+  //     Founded in 2022 by Winston Weinberg (a junior lawyer) and Gabe Pereyra (ex-DeepMind/Meta researcher), Harvey targeted the legal
+  //     industry. They got their first large customer when global law firm Allen & Overy decided to roll out their tool to ~3,500
+  //     attorneys in early 2023. That early big-law engagement served as proof-point and then unlocked momentum across the AmLaw 100
+  //     and large law firms.
+  //   `,
+  //   company_url: "https://www.harvey.ai/",
+  // },
+  // {
+  //   name: "Retell",
+  //   revenue: "$15M",
+  //   story: dedent`
+  //     Retell AI, a voice-agent platform, landed early customers by building compelling case studies in high-volume use-cases. For
+  //     example, telemedicine provider Doxy.me made Retell the first contact point for free-users, and others like Sunshine Loans and
+  //     AccioJob used Retell to handle thousands of calls with minimal human overhead. These case studies helped them land further
+  //     customers quickly.
+  //   `,
+  //   company_url: "https://www.retellai.com/",
+  // },
+  // {
+  //   name: "Cursor",
+  //   revenue: "$100M+",
+  //   story: dedent`
+  //     Cursor (by Anysphere) targeted developers first: the product shipped in Jan 2023, and early adopters included engineers at
+  //     OpenAI and other elite tech companies. These developers found value, paid out-of-pocket, and championed the product internally.
+  //     That grassroots adoption then translated to enterprise deals.
+  //   `,
+  //   company_url: "https://www.cursor.com/",
+  // },
+  // {
+  //   name: "ElevenLabs",
+  //   revenue: "~$200M",
+  //   story: dedent`
+  //     ElevenLabs started with deep tech in voice synthesis, then launched publicly with a free-tier platform that attracted many
+  //     creators and content-making customers. They leveraged their voice-actor marketplace (actors upload voices → developers pick
+  //     them) and enabled early users via self-serve. From creators and small customers to content publishers and enterprises, this
+  //     build-up triggered broader adoption.
+  //   `,
+  //   company_url: "https://www.elevenlabs.io/",
+  // },
+  // {
+  //   name: "Happy Robot",
+  //   revenue: "",
+  //   story: dedent`
+  //     Happy Robot’s first major customer surfaced somewhat serendipitously: while the founders demo’d at a logistics forum (Discord /
+  //     conference demo) their first customer, an $800M freight broker called Circle Logistics, discovered the product and became an
+  //     early design-partner. That real world production deployment in logistics operations helped them refine the product and then
+  //     land further logistics enterprise customers (DHL, Ryder etc.).
+  //   `,
+  //   company_url: "https://www.happyrobot.ai/",
+  // },
 ];
