@@ -22,21 +22,23 @@ export default function Home() {
               className="flex flex-col my-6"
               key={`${v.name}`}
             >
-              <div className="flex items-center">
-              { v.company_url ? (
-                  <Link href={v.company_url} className="text-2xl text-black underline" target="_blank">
-                    {v.name}
-                  </Link>
-                ) : (
-                  <span className="text-2xl text-black">
-                    {v.name}
-                  </span>
-                ) }
-                {v.bootstrapped && (
-                  <span className="bg-black text-white px-2 py-1 rounded-2xl text-sm ml-2">Bootstrapped</span>
-                )}
+              <div className="flex items-center justify-between">
+                <div className="flex items-center">
+                  { v.company_url ? (
+                      <Link href={v.company_url} className="text-2xl text-black underline" target="_blank">
+                        {v.name}
+                      </Link>
+                    ) : (
+                      <span className="text-2xl text-black">
+                        {v.name}
+                      </span>
+                    ) }
+                    {v.bootstrapped && (
+                      <span className="bg-black text-white px-2 py-1 rounded-2xl text-sm ml-2">Bootstrapped</span>
+                    )}
+                </div>
+                <span className="text-xl text-zinc-700 font-medium">{v.revenue}</span>
               </div>
-              <span className="text-xl text-gray-800 font-medium">{v.revenue}</span>
               <div className="prose prose-lg prose-invert prose-headings:text-2xl prose-headings:text-black text-zinc-800">
                 <MDXRemote source={v.story} components={mdxComponents} />
               </div>
