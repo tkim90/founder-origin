@@ -13,7 +13,7 @@ export const LIST = [
     At Facebook, he tried to create a dataset of 50k labeled businesses to distinguish between different business types. They hired an outside firm, which took 6 months to deliver it, which on top of that was riddled with errors - restaurants mislabeled as coffeeshops, coffeeshops as hospitals.
 
     ### Factors 
-    - He already had a data savy audience from previous technical blog posts. When he posted about Surge, exactly the right readers were there.
+    - He already had a data savvy audience from previous technical blog posts. When he posted about Surge, exactly the right readers were there.
     - Edwin was an expert on this problem. He had spent most of his career solving data problems at big tech companies.
     - Timing: Edwin launched Surge around the time GPT-3 launched.
 
@@ -28,17 +28,37 @@ export const LIST = [
     "bootstrapped": true,
   },
   {
-    "name": "Chatbase",
-    "revenue": "$5M",
-    "story": dedent`
-      Founder Yasser Elsaid built Chatbase (initially as a solo engineer) as a custom-chatbot platform that allowed website owners to
-      embed chat agents trained on their own data. He used growth via Twitter and Reddit to attract early adopters who were solving
-      their own mid-sized problems, kept the product lightweight, and focused on self-serve. The first customers came from this
-      word-of-mouth / community outreach kernel.
-    `,
-    "company_url": "https://www.chatbase.co/",
-    "bootstrapped": true,
-  },
+  "name": "Chatbase",
+  "revenue": "$5,000,000+ ARR (as of Feb 2025)",
+  "story": `
+
+  ### First customers
+  Yasser Elsaid's got his first customers on X. When GPT-3 API just launched, he hustled by quickly creating free custom chatbots for books and podcasts in relevant communities (Reddit, Twitter), hiding the pricing page for Reddit users to avoid spam flags and maximize credibility.
+  
+  He had a breakthrough in February 4, 2023 when his demo video exploded overnight (from an account with only 16 followers), gaining 1,500+ likes and thousands of users. At launch, the product was completely free. Business owners demanded a pricing page, and within two hours of launching it, Elsaid had his first paying customer at $10/month.
+  
+  From there, he quickly hit revenue milestones:
+  - $10K MRR by March 2023
+  - $64K MRR by May 2023
+  - $1M ARR in early 2024
+  - $5M+ ARR by February 2025
+
+  ### Factors
+  - Perfect timing: Chatbase launched during peak ChatGPT hype, capturing businesses hungry for AI automation.
+  - Built one of the first "Chat with PDFs", which contributed to virality
+  - Building in public on X allowed AI influencers to amplify growth organically.
+`,
+"sources": [
+    { "name": "Jetstalk Substack - $6M AI Chatbot Business", "url": "https://jetstalk.substack.com/p/how-one-developer-built-a-6m-ai-chatbot?action=share" },
+    { "name": "YouTube - Building a $3 million ARR product with AI | Yasser Elsaid", "url": "https://www.youtube.com/watch?v=zliLjqf1hQY" },
+    { "name": "YouTube - From college to $4M ARR in 2 years with Yasser, founder of Chatbase", "url": "https://www.youtube.com/watch?v=DYibi43h6o0" },
+    { "name": "LinkedIn - Bootstrapped Chatbase to $5M ARR in 2 Years", "url": "https://linkedin.com/pulse/speed-perfection-how-yasser-elsaid-bootstrapped-5m-arr-jesse-qin-phd-3hnle" },
+    { "name": "YouTube - Chatbase: $500K MRR Proof You Don't Need VC Money", "url": "https://www.youtube.com/watch?v=v60C5Qux6K8" },
+    { "name": "LinkedIn - I joined Chatbase exactly 1 week ago", "url": "https://www.linkedin.com/posts/sandra-dajic_i-joined-chatbase-exactly-1-week-ago-here-activity-7269596267595395072-vhMM" }
+  ],
+  "company_url": "https://www.chatbase.co/",
+  "bootstrapped": true
+},
   {
     "name": "Harvey",
     "revenue": "100M",
